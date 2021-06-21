@@ -1,0 +1,143 @@
+* {
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+  font-family:"josefin Sans","Arial Narrow";
+ }
+ 
+ .header{
+   width:100%;
+   background-color: hsl(172, 90%, 46%);
+   line-height:100px;
+   display:flex;
+   justify-content: flex-start;
+   align-items: center;
+   color:white;
+   padding-left:10px;
+   box-shadow: 3px 5px 15px -5px black;
+  
+ }
+ .main_note{
+   width:500px;
+   padding:15px 10px 5px 10px;
+   margin: 20px auto;
+   margin-top: 50px;
+ }
+ form{
+   min-height: 200px;
+   color:#ecf0f1;
+   padding:15px 10px 5px 10px;
+   box-shadow:3px 5px 15px -5px black;
+   border-radius:10px;
+   position:relative;
+   
+ }
+ 
+ 
+ textarea{
+   width:100%;
+   line-height:30px;
+   background:transparent;
+   border:none;
+   outline: none;
+   font-size:1rem;
+   margin:10px 0;
+ 
+ } 
+ input{
+   width:100%;
+   line-height: 30px;
+   background:transparent;
+   border:none;
+   outline:none;
+   font-size:1.5rem;
+   margin: 10px 0;
+   font-weight:bold;
+ 
+ }
+ 
+ .note{
+   background: #fff;
+   border-radius: 7px;
+   box-shadow: 0 2px 5px #ccc;
+   padding: 10px;
+   width:260px;
+   margin: 16px;
+   float:left;
+ }
+ .note h1{
+   font-size: 1.1em;
+   margin-bottom:6px;
+   white-space:pre-wrap;
+   word-wrap:break-word;
+ }
+ .note p{
+   font-size: 1.1em;
+   margin-bottom: 10px;
+   white-space:pre-wrap;
+   word-wrap:break-word;
+ }
+ .deleteIcon{
+   width: 0.7em;
+   height:0.7em;
+ }
+ .note .btn:hover{
+   background-color:#16f1f1 ;
+ }
+ .note .btn:hover .deleteIcon{
+   color:#fff;
+ }
+ .note .btn{
+   position: relative;
+   float:right;
+   margin-right:10px;
+   color:#16f1f1 ;
+   border:none;
+   width: 50px;
+   height:50px;
+   background:transparent;
+   cursor:pointer;
+   outline:none;
+   box-shadow: 3px 3px 15px -10px black;
+ }
+ .mybtn .plus_sign{
+   font-size: 45px !important;
+   font-weight: 900;
+   color:#16f1f1 ;
+   z-index:222 !important;
+   cursor: pointer;
+   background: transparent;
+ }
+ .mybtn{
+   background-color:#fff !important;
+   position:absolute;
+   left:450px;
+   bottom:-24px;
+   border:none;
+   outline:none;
+   border-radius: 25px;
+ }
+ .mybtn:hover .plus_sign{
+   background-color: #16f1f1  !important;
+   color : #fff !important;
+   border-radius: 25px;
+ }
+
+ .heading{
+   margin-left: 20px;
+   text-shadow:  black;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+   color: black;
+ }
+
+ .foot{
+   color: black;
+   text-align: center;
+   
+ 
+ }
+
+ .foot1{
+   margin-top: 500px;
+ }
+ 
